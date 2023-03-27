@@ -1,11 +1,19 @@
-export const pokemonData = [
+export type PokemonInfo = {
+  name: string;
+  dex_number: number;
+  type_1: string;
+  type_2:  string | null;
+  image_url: string;
+}
+
+export const pokemonData: PokemonInfo[] = [
   {
     name: "sprigatito",
     dex_number: 906,
     type_1: "grass",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/906.png"
   },
   {
     name: "floragato",
@@ -13,7 +21,7 @@ export const pokemonData = [
     type_1: "grass",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/907.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/907.png"
   },
   {
     name: "meowscarada",
@@ -21,7 +29,7 @@ export const pokemonData = [
     type_1: "grass",
     type_2: "dark",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/908.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/908.png"
   },
   {
     name: "fuecoco",
@@ -29,7 +37,7 @@ export const pokemonData = [
     type_1: "fire",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/909.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/909.png"
   },
   {
     name: "crocalor",
@@ -37,7 +45,7 @@ export const pokemonData = [
     type_1: "fire",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/910.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/910.png"
   },
   {
     name: "skeledirge",
@@ -45,7 +53,7 @@ export const pokemonData = [
     type_1: "fire",
     type_2: "ghost",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/911.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/911.png"
   },
   {
     name: "quaxly",
@@ -53,7 +61,7 @@ export const pokemonData = [
     type_1: "water",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/912.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/912.png"
   },
   {
     name: "quaxwell",
@@ -61,7 +69,7 @@ export const pokemonData = [
     type_1: "water",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/913.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/913.png"
   },
   {
     name: "quaquaval",
@@ -69,7 +77,7 @@ export const pokemonData = [
     type_1: "water",
     type_2: "fighting",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/914.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/914.png"
   },
   {
     name: "lechonk",
@@ -77,7 +85,7 @@ export const pokemonData = [
     type_1: "normal",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/915.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/915.png"
   },
   {
     name: "oinkologne",
@@ -85,7 +93,7 @@ export const pokemonData = [
     type_1: "normal",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/916.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/916.png"
   },
   {
     name: "tarountula",
@@ -93,7 +101,7 @@ export const pokemonData = [
     type_1: "bug",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/917.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/917.png"
   },
   {
     name: "spidops",
@@ -101,7 +109,7 @@ export const pokemonData = [
     type_1: "bug",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/918.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/918.png"
   },
   {
     name: "nymble",
@@ -109,7 +117,7 @@ export const pokemonData = [
     type_1: "bug",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/919.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/919.png"
   },
   {
     name: "lokix",
@@ -117,7 +125,7 @@ export const pokemonData = [
     type_1: "bug",
     type_2: "dark",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/920.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/920.png"
   },
   {
     name: "pawmi",
@@ -125,7 +133,7 @@ export const pokemonData = [
     type_1: "electric",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/921.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/921.png"
   },
   {
     name: "pawmo",
@@ -133,7 +141,7 @@ export const pokemonData = [
     type_1: "electric",
     type_2: "fighting",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/922.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/922.png"
   },
   {
     name: "pawmot",
@@ -141,7 +149,7 @@ export const pokemonData = [
     type_1: "electric",
     type_2: "fighting",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/923.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/923.png"
   },
   {
     name: "tandemaus",
@@ -149,7 +157,7 @@ export const pokemonData = [
     type_1: "normal",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/924.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/924.png"
   },
   {
     name: "maushold",
@@ -157,7 +165,7 @@ export const pokemonData = [
     type_1: "normal",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/925.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/925.png"
   },
   {
     name: "fidough",
@@ -165,7 +173,7 @@ export const pokemonData = [
     type_1: "fairy",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/926.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/926.png"
   },
   {
     name: "dachsbun",
@@ -173,7 +181,7 @@ export const pokemonData = [
     type_1: "fairy",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/927.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/927.png"
   },
   {
     name: "smoliv",
@@ -181,7 +189,7 @@ export const pokemonData = [
     type_1: "grass",
     type_2: "normal",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/928.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/928.png"
   },
   {
     name: "dolliv",
@@ -189,7 +197,7 @@ export const pokemonData = [
     type_1: "grass",
     type_2: "normal",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/929.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/929.png"
   },
   {
     name: "arboliva",
@@ -197,7 +205,7 @@ export const pokemonData = [
     type_1: "grass",
     type_2: "normal",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/930.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/930.png"
   },
   {
     name: "squawkabilly",
@@ -205,7 +213,7 @@ export const pokemonData = [
     type_1: "normal",
     type_2: "flying",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/931.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/931.png"
   },
   {
     name: "nacli",
@@ -213,7 +221,7 @@ export const pokemonData = [
     type_1: "rock",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/932.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/932.png"
   },
   {
     name: "naclstack",
@@ -221,7 +229,7 @@ export const pokemonData = [
     type_1: "rock",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/933.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/933.png"
   },
   {
     name: "garganacl",
@@ -229,7 +237,7 @@ export const pokemonData = [
     type_1: "rock",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/934.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/934.png"
   },
   {
     name: "charcadet",
@@ -237,7 +245,7 @@ export const pokemonData = [
     type_1: "fire",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/935.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/935.png"
   },
   {
     name: "armarouge",
@@ -245,7 +253,7 @@ export const pokemonData = [
     type_1: "fire",
     type_2: "psychic",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/936.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/936.png"
   },
   {
     name: "ceruledge",
@@ -253,7 +261,7 @@ export const pokemonData = [
     type_1: "fire",
     type_2: "ghost",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/937.png"
   },
   {
     name: "tadbulb",
@@ -261,7 +269,7 @@ export const pokemonData = [
     type_1: "electric",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/938.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/938.png"
   },
   {
     name: "bellibolt",
@@ -269,7 +277,7 @@ export const pokemonData = [
     type_1: "electric",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/939.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/939.png"
   },
   {
     name: "wattrel",
@@ -277,7 +285,7 @@ export const pokemonData = [
     type_1: "electric",
     type_2: "flying",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/940.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/940.png"
   },
   {
     name: "kilowattrel",
@@ -285,7 +293,7 @@ export const pokemonData = [
     type_1: "electric",
     type_2: "flying",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/941.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/941.png"
   },
   {
     name: "maschiff",
@@ -293,7 +301,7 @@ export const pokemonData = [
     type_1: "dark",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/942.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/942.png"
   },
   {
     name: "mabosstiff",
@@ -301,7 +309,7 @@ export const pokemonData = [
     type_1: "dark",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/943.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/943.png"
   },
   {
     name: "shroodle",
@@ -309,7 +317,7 @@ export const pokemonData = [
     type_1: "poison",
     type_2: "normal",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/944.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/944.png"
   },
   {
     name: "grafaiai",
@@ -317,7 +325,7 @@ export const pokemonData = [
     type_1: "poison",
     type_2: "normal",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/945.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/945.png"
   },
   {
     name: "bramblin",
@@ -325,7 +333,7 @@ export const pokemonData = [
     type_1: "grass",
     type_2: "ghost",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/946.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/946.png"
   },
   {
     name: "brambleghast",
@@ -333,7 +341,7 @@ export const pokemonData = [
     type_1: "grass",
     type_2: "ghost",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/947.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/947.png"
   },
   {
     name: "toedscool",
@@ -341,7 +349,7 @@ export const pokemonData = [
     type_1: "ground",
     type_2: "grass",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/948.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/948.png"
   },
   {
     name: "toedscruel",
@@ -349,7 +357,7 @@ export const pokemonData = [
     type_1: "ground",
     type_2: "grass",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/949.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/949.png"
   },
   {
     name: "klawf",
@@ -357,7 +365,7 @@ export const pokemonData = [
     type_1: "rock",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/950.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/950.png"
   },
   {
     name: "capsakid",
@@ -365,7 +373,7 @@ export const pokemonData = [
     type_1: "grass",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/951.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/951.png"
   },
   {
     name: "scovillain",
@@ -373,7 +381,7 @@ export const pokemonData = [
     type_1: "grass",
     type_2: "fire",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/952.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/952.png"
   },
   {
     name: "rellor",
@@ -381,7 +389,7 @@ export const pokemonData = [
     type_1: "bug",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/953.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/953.png"
   },
   {
     name: "rabsca",
@@ -389,7 +397,7 @@ export const pokemonData = [
     type_1: "bug",
     type_2: "psychic",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/954.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/954.png"
   },
   {
     name: "flittle",
@@ -397,7 +405,7 @@ export const pokemonData = [
     type_1: "psychic",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/955.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/955.png"
   },
   {
     name: "espathra",
@@ -405,7 +413,7 @@ export const pokemonData = [
     type_1: "psychic",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/956.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/956.png"
   },
   {
     name: "tinkatink",
@@ -413,7 +421,7 @@ export const pokemonData = [
     type_1: "fairy",
     type_2: "steel",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/957.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/957.png"
   },
   {
     name: "tinkatuff",
@@ -421,7 +429,7 @@ export const pokemonData = [
     type_1: "fairy",
     type_2: "steel",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/958.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/958.png"
   },
   {
     name: "tinkaton",
@@ -429,7 +437,7 @@ export const pokemonData = [
     type_1: "fairy",
     type_2: "steel",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/959.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/959.png"
   },
   {
     name: "wiglett",
@@ -437,7 +445,7 @@ export const pokemonData = [
     type_1: "water",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/960.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/960.png"
   },
   {
     name: "wugtrio",
@@ -445,7 +453,7 @@ export const pokemonData = [
     type_1: "water",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/961.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/961.png"
   },
   {
     name: "bombirdier",
@@ -453,7 +461,7 @@ export const pokemonData = [
     type_1: "flying",
     type_2: "dark",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/962.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/962.png"
   },
   {
     name: "finizen",
@@ -461,7 +469,7 @@ export const pokemonData = [
     type_1: "water",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/963.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/963.png"
   },
   {
     name: "palafin",
@@ -469,7 +477,7 @@ export const pokemonData = [
     type_1: "water",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/964.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/964.png"
   },
   {
     name: "varoom",
@@ -477,7 +485,7 @@ export const pokemonData = [
     type_1: "steel",
     type_2: "poison",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/965.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/965.png"
   },
   {
     name: "revavroom",
@@ -485,7 +493,7 @@ export const pokemonData = [
     type_1: "steel",
     type_2: "poison",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/966.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/966.png"
   },
   {
     name: "cyclizar",
@@ -493,7 +501,7 @@ export const pokemonData = [
     type_1: "dragon",
     type_2: "normal",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/967.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/967.png"
   },
   {
     name: "orthworm",
@@ -501,7 +509,7 @@ export const pokemonData = [
     type_1: "steel",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/968.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/968.png"
   },
   {
     name: "glimmet",
@@ -509,7 +517,7 @@ export const pokemonData = [
     type_1: "rock",
     type_2: "poison",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/969.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/969.png"
   },
   {
     name: "glimmora",
@@ -517,7 +525,7 @@ export const pokemonData = [
     type_1: "rock",
     type_2: "poison",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/970.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/970.png"
   },
   {
     name: "greavard",
@@ -525,7 +533,7 @@ export const pokemonData = [
     type_1: "ghost",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/971.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/971.png"
   },
   {
     name: "houndstone",
@@ -533,7 +541,7 @@ export const pokemonData = [
     type_1: "ghost",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/972.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/972.png"
   },
   {
     name: "flamigo",
@@ -541,7 +549,7 @@ export const pokemonData = [
     type_1: "flying",
     type_2: "fighting",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/973.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/973.png"
   },
   {
     name: "cetoddle",
@@ -549,7 +557,7 @@ export const pokemonData = [
     type_1: "ice",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/974.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/974.png"
   },
   {
     name: "cetitan",
@@ -557,7 +565,7 @@ export const pokemonData = [
     type_1: "ice",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/975.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/975.png"
   },
   {
     name: "veluza",
@@ -565,7 +573,7 @@ export const pokemonData = [
     type_1: "water",
     type_2: "psychic",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/976.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/976.png"
   },
   {
     name: "dondozo",
@@ -573,7 +581,7 @@ export const pokemonData = [
     type_1: "water",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/977.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/977.png"
   },
   {
     name: "tatsugiri",
@@ -581,7 +589,7 @@ export const pokemonData = [
     type_1: "dragon",
     type_2: "water",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/978.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/978.png"
   },
   {
     name: "annihilape",
@@ -589,7 +597,7 @@ export const pokemonData = [
     type_1: "fighting",
     type_2: "ghost",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/979.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/979.png"
   },
   {
     name: "clodsire",
@@ -597,7 +605,7 @@ export const pokemonData = [
     type_1: "poison",
     type_2: "ground",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/980.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/980.png"
   },
   {
     name: "farigiraf",
@@ -605,7 +613,7 @@ export const pokemonData = [
     type_1: "normal",
     type_2: "psychic",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/981.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/981.png"
   },
   {
     name: "dudunsparce",
@@ -613,7 +621,7 @@ export const pokemonData = [
     type_1: "normal",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/982.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/982.png"
   },
   {
     name: "kingambit",
@@ -621,7 +629,7 @@ export const pokemonData = [
     type_1: "dark",
     type_2: "steel",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/983.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/983.png"
   },
   {
     name: "great-tusk",
@@ -629,7 +637,7 @@ export const pokemonData = [
     type_1: "ground",
     type_2: "fighting",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/984.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/984.png"
   },
   {
     name: "scream-tail",
@@ -637,7 +645,7 @@ export const pokemonData = [
     type_1: "fairy",
     type_2: "psychic",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/985.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/985.png"
   },
   {
     name: "brute-bonnet",
@@ -645,7 +653,7 @@ export const pokemonData = [
     type_1: "grass",
     type_2: "dark",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/986.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/986.png"
   },
   {
     name: "flutter-mane",
@@ -653,7 +661,7 @@ export const pokemonData = [
     type_1: "ghost",
     type_2: "fairy",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/987.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/987.png"
   },
   {
     name: "slither-wing",
@@ -661,7 +669,7 @@ export const pokemonData = [
     type_1: "bug",
     type_2: "fighting",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/988.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/988.png"
   },
   {
     name: "sandy-shocks",
@@ -669,7 +677,7 @@ export const pokemonData = [
     type_1: "electric",
     type_2: "ground",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/989.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/989.png"
   },
   {
     name: "iron-treads",
@@ -677,7 +685,7 @@ export const pokemonData = [
     type_1: "ground",
     type_2: "steel",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/990.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/990.png"
   },
   {
     name: "iron-bundle",
@@ -685,7 +693,7 @@ export const pokemonData = [
     type_1: "ice",
     type_2: "water",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/991.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/991.png"
   },
   {
     name: "iron-hands",
@@ -693,7 +701,7 @@ export const pokemonData = [
     type_1: "fighting",
     type_2: "electric",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/992.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/992.png"
   },
   {
     name: "iron-jugulis",
@@ -701,7 +709,7 @@ export const pokemonData = [
     type_1: "dark",
     type_2: "flying",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/993.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/993.png"
   },
   {
     name: "iron-moth",
@@ -709,7 +717,7 @@ export const pokemonData = [
     type_1: "fire",
     type_2: "poison",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/994.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/994.png"
   },
   {
     name: "iron-thorns",
@@ -717,7 +725,7 @@ export const pokemonData = [
     type_1: "rock",
     type_2: "electric",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/995.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/995.png"
   },
   {
     name: "frigibax",
@@ -725,7 +733,7 @@ export const pokemonData = [
     type_1: "dragon",
     type_2: "ice",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/996.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/996.png"
   },
   {
     name: "arctibax",
@@ -733,7 +741,7 @@ export const pokemonData = [
     type_1: "dragon",
     type_2: "ice",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/997.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/997.png"
   },
   {
     name: "baxcalibur",
@@ -741,7 +749,7 @@ export const pokemonData = [
     type_1: "dragon",
     type_2: "ice",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/998.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/998.png"
   },
   {
     name: "gimmighoul",
@@ -749,7 +757,7 @@ export const pokemonData = [
     type_1: "ghost",
     type_2: null,
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/999.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/999.png"
   },
   {
     name: "gholdengo",
@@ -757,7 +765,7 @@ export const pokemonData = [
     type_1: "steel",
     type_2: "ghost",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1000.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1000.png"
   },
   {
     name: "wo-chien",
@@ -765,7 +773,7 @@ export const pokemonData = [
     type_1: "dark",
     type_2: "grass",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1001.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1001.png"
   },
   {
     name: "chien-pao",
@@ -773,7 +781,7 @@ export const pokemonData = [
     type_1: "dark",
     type_2: "ice",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1002.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1002.png"
   },
   {
     name: "ting-lu",
@@ -781,7 +789,7 @@ export const pokemonData = [
     type_1: "dark",
     type_2: "ground",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1003.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1003.png"
   },
   {
     name: "chi-yu",
@@ -789,7 +797,7 @@ export const pokemonData = [
     type_1: "dark",
     type_2: "fire",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1004.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1004.png"
   },
   {
     name: "roaring-moon",
@@ -797,7 +805,7 @@ export const pokemonData = [
     type_1: "dragon",
     type_2: "dark",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1005.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1005.png"
   },
   {
     name: "iron-valiant",
@@ -805,7 +813,7 @@ export const pokemonData = [
     type_1: "fairy",
     type_2: "fighting",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1006.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1006.png"
   },
   {
     name: "koraidon",
@@ -813,7 +821,7 @@ export const pokemonData = [
     type_1: "fighting",
     type_2: "dragon",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1007.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1007.png"
   },
   {
     name: "miraidon",
@@ -821,6 +829,6 @@ export const pokemonData = [
     type_1: "electric",
     type_2: "dragon",
     image_url:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1008.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1008.png"
   }
 ];

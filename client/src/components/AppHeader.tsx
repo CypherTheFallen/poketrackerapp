@@ -1,5 +1,4 @@
-import React from "react";
-import logoUrl from "./images/poketracker-title.png";
+import logoUrl from "../images/poketracker-title.png";
 
 type Props = {};
 

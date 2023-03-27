@@ -1,7 +1,6 @@
-import { useState } from "react";
 
-import { AppHeader } from "./AppHeader";
-import { PokemonListContainer } from "./PokemonListContainer";
+import { AppHeader } from "./components/AppHeader";
+import { PokemonListContainer } from "./components/PokemonListContainer";
 
 function App() {
   return (
